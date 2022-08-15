@@ -1,0 +1,9 @@
+div{
+    background-color: blueviolet;
+    border: 5px solid black;
+}
+div:hover{
+    
+    background-color: aqua;
+}
+div:
