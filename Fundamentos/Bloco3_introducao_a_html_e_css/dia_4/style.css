@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+  }
+
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin-left:43%;
+   
+  }
+  .first::marker{
+    color: rgb(235, 200, 84);
+  }
+ 
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    margin-left: 32%;
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .podium li:nth-child(n + 2){
+    display: inline-block;
+  }
+
+  .prize{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .primeiro li, .segundo li, .terceiro li{
+    display: inline-block;
+    font-size: 15px;
+    margin: 0.5px;
+    
+  }
+
+  .primeiro li:first-child{
+    margin-left: 30%
+  }
+  .segundo li:first-child, .terceiro li:first-child{
+    margin-left: 31%;
+  }
