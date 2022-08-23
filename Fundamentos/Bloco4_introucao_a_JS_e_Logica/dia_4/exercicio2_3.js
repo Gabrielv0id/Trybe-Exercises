@@ -1,15 +1,21 @@
-function maiorNome(array){
-  let maior = 0;
-  let nome;
-  for( let key in array){
-    if (array[key].length > maior){
-      maior = array[key].length;
-      nome = array[key];
+function repete (array){
+    let vezes = 0;
+    let numRepete = 0;
+    for(let index = 0; index < array.length ; index += 1){
+         let sum = 0;
+        for(let cont = 0; cont < array.length ; cont += 1){
+            if(array[index] === array[cont]){
+                sum += 1;
+            }
+        }
+        if( vezes < sum){
+        vezes = sum;
+        numRepete = array[index];
+        }
     }
-  }
-  return nome;
+    return numRepete;
 }
 
-let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+let numbers = [2, 3, 2, 5, 8, 2, 3];
 
-console.log(maiorNome(nomes));
+console.log(repete(numbers));
