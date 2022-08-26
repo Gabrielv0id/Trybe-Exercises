@@ -28,8 +28,20 @@
   console.log(document.querySelector('#elementoOndeVoceEsta').previousElementSibling);
   console.log(document.querySelector('#elementoOndeVoceEsta').nextElementSibling);
   console.log(document.getElementById('pai').childNodes[5]);
+  let pai = document.querySelector('#pai');
+  let irmao = document.createElement('section');
+  irmao.id = 'irmaoDeAondeVoceEsta'
+  pai.appendChild(irmao);
+  let aondeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+  let filhoDeOndeVoceEsta = document.createElement('section');
+  filhoDeOndeVoceEsta.id = 'filhoDeOndeVoceEsta'
+  aondeVoceEsta.appendChild(filhoDeOndeVoceEsta);
+  let primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho');
+  let filhoPrimeiroFilhoDoFilho = document.createElement('section');
+  filhoPrimeiroFilhoDoFilho.id = 'filhoPrimeiroFilhoDoFilho';
+  primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
 
-
+  console.log(document.getElementById('filhoPrimeiroFilhoDoFilho').parentElement.parentElement.nextElementSibling);
 
 
 </script>
