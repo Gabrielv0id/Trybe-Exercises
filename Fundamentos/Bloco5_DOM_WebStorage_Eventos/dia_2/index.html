@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
+  <div id="dbz">
+    <h1>
+      Oi, eu sou o Goku!
+    </h1>
+  </div>
+
   <main id="paiDoPai">
     <section id="pai">
       <section id="primeiroFilho"></section>
@@ -42,6 +48,7 @@
   primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
 
   console.log(document.getElementById('filhoPrimeiroFilhoDoFilho').parentElement.parentElement.nextElementSibling);
+  console.log(document.getElementById('dbz').firstElementChild.innerText)
 
 
 </script>
