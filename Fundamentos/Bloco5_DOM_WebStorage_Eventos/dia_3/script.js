@@ -70,3 +70,31 @@ function holidayColor () {
 
 holidayColor();
 
+function fridayButton(palavra){
+  const containerButton = document.querySelector('.buttons-container');
+  const button = document.createElement('button');
+  button.id = 'btn-friday';
+  button.innerText = palavra;
+  containerButton.appendChild(button);
+}
+
+fridayButton('Sexta-feira')
+
+function changeText (sextas) {
+  const getButton = document.querySelector('#btn-friday');
+  const sexta = document.getElementsByClassName('friday');
+  const change = 'SEXTOU!!!';
+
+  getButton.addEventListener('click', function(){
+    for (let index = 0; index < sexta.length ; index += 1 ) {
+      if (sexta[index].innerHTML !== change){
+        sexta[index].innerHTML = change;
+      } else {
+        sexta[index].innerHTML = sextas[index];
+      }
+    }
+  });
+}
+
+let sextasDezembro = [4, 11, 18, 25];
+changeText(sextasDezembro);
