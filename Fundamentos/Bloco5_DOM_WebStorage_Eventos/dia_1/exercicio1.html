@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class='suffer' id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class='suffer' id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = 'Harry Potter'; 
+      document.getElementById('subtitle').innerText = 'Eu so quero descansar um pouquito';
+      document.getElementById('second-paragraph').innerText = 'ultimamente tem sido muito cansativo mas meus objetivos sao maiores do que minha tristeza';
+      const suffer = document.getElementsByClassName('suffer')[0];
+      suffer.style.fontSize = '1.5em';
+      const color = document.getElementsByTagName('h4')[0];
+      color.style.color = 'gold'
+    </script>
+  </body>
+</html>
