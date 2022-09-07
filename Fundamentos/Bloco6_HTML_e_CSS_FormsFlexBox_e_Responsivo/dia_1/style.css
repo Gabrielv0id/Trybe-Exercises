@@ -1,0 +1,29 @@
+*{
+    font-size: 25px;
+}
+h1{
+ margin-left: 350px;
+ font-size: 50px;
+}
+fieldset{
+    border: 3px solid black;
+    margin: 20px 300px
+}
+
+#name-box{
+    margin: 20px 0;
+}
+
+#email-box{
+    margin-left: 3px;
+    margin: 20px 0;
+}
+
+#text-area{
+    margin: 20px 0;
+}
+
+#check-boxes{
+    margin: 20px 0;
+    font-size: 17px;
+}
