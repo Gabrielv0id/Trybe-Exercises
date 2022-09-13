@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    background-color: rgb(63, 55, 55);
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.head .trybe-logo {
+    width: 60px;
+}
+
+.head .sign {
+    color: white;
+    font-size: 12px;
+}
+
+.head .tech {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.introdution {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+ .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto 13px auto;
+    justify-content: space-around; 
+    width: 50%;
+ }
+
+.grid div  {
+  display: flex;
+  text-align: center;
+  font-weight: 600;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 5%;
+  margin: 0 10px 15px 0;
+  box-shadow: 2px 3px grey;
+}
+.grid  img {
+    width: 300px;
+    height: 300px;
+}
