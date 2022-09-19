@@ -43,8 +43,8 @@ const customerInfo = (order) => {
 customerInfo(order);
 
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
-
+  const deliveryP = Object.entries(order.order.delivery);
+  
 };
 
 orderModifier(order);
