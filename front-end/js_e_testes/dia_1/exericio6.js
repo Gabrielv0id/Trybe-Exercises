@@ -41,3 +41,5 @@ const pokemons = [
   };
   
   getPokemonDetails('Bulbasaur' , handlePokemonSearch);
+
+  module.exports = getPokemonDetails;
