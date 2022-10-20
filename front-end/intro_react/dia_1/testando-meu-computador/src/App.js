@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import About from './About'
 
 // function App() {
 //   return (<span className='Helloworld'>Hello, world!</span>);
@@ -9,7 +10,7 @@ import './App.css';
 //criacao de um componente 
 class App extends Component {
   render () {
-    return (<span className='Helloworld'>Hello, world!</span>);
+    return < About />;
   }
 }
 
