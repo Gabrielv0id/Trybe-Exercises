@@ -3,3 +3,6 @@ export const actionCreator = (increment = 1) => ({
     payload: increment,
 });
 
+export const clickCounter = () => ({
+    type: "INCREMENT_CLICK",
+})
