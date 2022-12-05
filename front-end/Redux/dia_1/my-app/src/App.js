@@ -24,8 +24,8 @@ class App extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  countState: state.count,
-  clicksCount: state.clicks,
+  countState: state.counterReducer.count,
+  clicksCount: state.counterReducer.clicks,
 
 });
 

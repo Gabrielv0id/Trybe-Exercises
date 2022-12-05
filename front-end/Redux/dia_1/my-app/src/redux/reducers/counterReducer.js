@@ -1,6 +1,7 @@
 const INITIAL_STATE = {
     count: 0,
     clicks: 0,
+    
 }
 
 const counterReducer = (state = INITIAL_STATE, action) => {
